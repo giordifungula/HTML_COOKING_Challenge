@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    table,tr,td {
+        border: solid rgb(209, 139, 139) 15px;
+    }
+    table{
+        border-collapse:collapse;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+         
+    </table>
+<br>
+    <table>
+        <tr>
+            <td>1</td>
+            <td colspan="4">2</td>
+            <!-- <td>1</td>
+            <td>1</td>
+            <td>1</td> -->
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            <td>1</td>
+            <td>1</td>
+            <td colspan="2" rowspan="2">1</td>
+            <!-- <td>1</td> -->
+            </tr>
+        <tr>
+            <!-- <td>1</td> -->
+            <td>1</td>
+            <td>1</td>
+            <!-- <td>1</td>
+            <td>1</td> -->
+        </tr>
+        <tr>
+            <!-- <td>1</td> -->
+            <td colspan="2">1</td>
+            <!-- <td>1</td> -->
+            <td colspan="2">1</td>
+            <!-- <td>1</td> -->
+        </tr>
+    </table>
+</body>
+</html>
