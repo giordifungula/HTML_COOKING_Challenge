@@ -9,28 +9,46 @@
     <style>
         body {
             margin: 0 auto;
+            /* align the margin all over */
+            font-size: 1.2em;
+            font-family: monospace;
+        }
+        .top_section{
+            /* margin: auto; */
+    
+        }
+        main{
+            /* main section will be again */
+            background-image: linear-gradient(to right, rgb(163, 101, 179), rgb(22, 201, 214), rgb(153, 150, 202)), url('https://expatexplore.com/blog/wp-content/uploads/2016/11/Lake_Como_Italy.jpg');
         }
         h1 {
             text-align: center;
-            color: rgb(136, 53, 53);
-            /* background-color: linear-gradient( to right, rgb(30, 142, 177), rgb(9, 101, 221); */
+            color: rgb(245, 212, 212);
+            font-family: sans-serif;
+            margin: auto 0;
+           /*  Main heading style*/
         }
         header {
             padding: 20px;
-            background-image: linear-gradient(to right, rgb(14, 91, 114) , yellow), url('https://expatexplore.com/blog/wp-content/uploads/2016/11/Lake_Como_Italy.jpg');
-            ;
+            background-image: linear-gradient(to right, rgb(163, 101, 179), rgb(22, 201, 214), rgb(153, 150, 202)), url('https://expatexplore.com/blog/wp-content/uploads/2016/11/Lake_Como_Italy.jpg');
+        }
+        header p {
+            font-size: 1.2em;
+            font-family: monospace;
+            color:rgb(44, 29, 29);
         }
         input[type=text],textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-label {
-    width: 50%;
-}
+             width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            /* button styles */
+        }
+        label {
+            /* width: 50%; */
+        }
     </style>
 </head>
 <body>
@@ -39,6 +57,8 @@ label {
             <h1>
                 Giordi Fungula , what I have learnt so far
             </h1>
+        </div>
+        <!-- Essay  -->
             <p>
                 I have learnt so much this far althought I have had coding experience previously.
                 We have learnt on the importance of Internet and all the middle-men that are involved in the process.
@@ -56,13 +76,16 @@ label {
             <p>
                 I think the most important is the process of breaking down your code or projects into simple or able to do stuff.This helps with small problems and huge ones too.
             </p>
-        </div>
+            <!-- Essay -->
+    </header>
         <main>
             <div class="image">
+                <!-- image goes here -->
                 <a href="https://www.facebook.com/jodi.fungula"><img width="200px" src="https://avatars1.githubusercontent.com/u/27930281?s=460&v=4" alt=""></a>
             </div>
             <aside>
                 <div class="articles"></div>
+                <!-- article goes here -->
                     <h2>Articles I enjoy reading</h2>
                     <ul>
                         <a href="https://medium.freecodecamp.org/my-journey-to-becoming-a-web-developer-from-scratch-without-a-cs-degree-2-years-later-and-what-i-4a7fd2ff5503">
@@ -96,6 +119,7 @@ label {
             </aside>
         </main>
         <section class="formArea">
+            <!-- form goes here -->
             <form>
                 <label for="fname">First Name</label>
                 <input type="text" name="firstname" id="fname" placeholder="Your name.."><br>
@@ -105,6 +129,5 @@ label {
                 <input type="submit" value="Submit">
             </form>
         </section>
-    </header>
 </body>
 </html>
