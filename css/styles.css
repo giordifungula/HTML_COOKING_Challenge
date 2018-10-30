@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+
+.para_1 > p {
+    font-family: 'Kodchasan', sans-serif;
+}
+.para_2 > p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(221, 85, 221);
+}
